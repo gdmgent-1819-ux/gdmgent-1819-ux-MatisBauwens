@@ -1,0 +1,27 @@
+h1{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 60px;
+    color: var(--c-white);
+}
+
+span{
+    color: var(--c-secondary-dark);
+}
+
+h2{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-size: 50px;
+    color: var(--c-white);
+}
+
+p{
+    font-family: var( --t-primary);
+    color: var(--c-white);
+    line-height: 30px;
+    font-size: 16px;
+    max-width: 500px;
+}

@@ -1,0 +1,28 @@
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    color: var(--c-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--t-primary);
+    padding: 0 20px;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color: var(--c-secondary);
+    transition: 0.5s;
+}
+
+li{
+    border-right: 3px solid var(--c-primary);
+    padding: 20px;
+}
+
+.active{
+    border: 1px solid var(--c-primary);
+    padding: 15px 20px;
+}

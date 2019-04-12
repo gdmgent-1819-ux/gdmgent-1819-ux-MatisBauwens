@@ -3,7 +3,13 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsla(109, 64%, 45%, 1);
+  --c-secondary: hsla(61, 100%, 87%, 1);
+  --c-secondary-dark: hsla(62, 68%, 59%, 1);
+  --c-tertiaire: hsla(62, 51%, 32%, 1);
+  --c-gray: hsl(0, 0%, 70%);
+  --c-black: hsla(0, 0%, 0%, 1);
+  --c-white: hsla(0, 0%, 100%, 1);
 
   /**
    * Layout
@@ -13,7 +19,7 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
+  --t-primary: 'Open Sans', Arial, Helvetica, sans-serif;
   --t-secondary: Arial, Helvetica, sans-serif;
   --t-tertiary: monospace;
 

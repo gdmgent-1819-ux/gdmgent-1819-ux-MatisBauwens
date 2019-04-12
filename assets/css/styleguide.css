@@ -1,17 +1,37 @@
+body{
+    background-color: black;
+}
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
-    color: #333;
+    color: rgb(199, 199, 199);
     margin: 1rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    letter-spacing: 0;
+    background-color: transparent;
 }
 
 .sg-subtitle {
     font-size: 1rem;
     border-bottom: solid 1px #aaa;
     font-weight: 400;
-    color: #666;
+    color: rgb(199, 199, 199);
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    letter-spacing: 0;
+    background-color: transparent;
+}
+
+.kleurpalet{
+    display: flex;
+}
+
+.kleuren{
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
 }
